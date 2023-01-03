@@ -8,3 +8,4 @@ shell scripting topics
 3. veriable
 4. qoutes
 5. exist status
+6. aa
