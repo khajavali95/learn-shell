@@ -7,3 +7,4 @@ echo -e "\e[34mCOLOUR\e[0m"
 echo -e "\e[35mCOLOUR\e[0m"
 
 echo "bye"
+
