@@ -8,3 +8,4 @@ echo -e "\e[35mCOLOUR\e[0m"
 
 echo "bye"
 
+hello
