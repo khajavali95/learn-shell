@@ -34,7 +34,7 @@ else
   echo fail
 fi
 
-cp ${script_location}/learn-shell/Files/nginx-roboshop.conf /etc/nginx/default.d/nginx-roboshop.conf &>>{log}
+cp ${script_location}/Files/nginx-roboshop.conf /etc/nginx/default.d/nginx-roboshop.conf &>>{log}
 if [ $? -eq 0 ]; then
   echo succes
 else
