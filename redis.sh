@@ -1,18 +1,4 @@
-Script_location=$(pwd)
-log=/tmp/robobshop.log
-
-status_check(){
-  if [ $? -eq 0 ]; then
-    echo -e "\e[1;32msuccess\e[0m"
-    else
-      echo -e "\e[1;31mfialure\e[0m"
-      echo "refer log file for more information, LOG - ${LOG}"
-      exit 1
-      fi
-      }
-print_head() {
-  echo -e "\e[1m $1 \e[0m"
-}
+source common.sh
 
 print_head "setup redis repo"
 yum install https://rpms.remirepo.net/enterprise/remi-release-8.rpm -y &>>${LOG}
