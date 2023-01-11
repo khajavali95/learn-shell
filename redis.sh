@@ -1,4 +1,4 @@
-Script_location=$(pww)
+Script_location=$(pwd)
 log=/tmp/robobshop.log
 
 status_check(){
